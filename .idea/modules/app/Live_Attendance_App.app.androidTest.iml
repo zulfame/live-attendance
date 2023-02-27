@@ -25,6 +25,7 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
+                <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debugAndroidTest/R.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7b9841f1caec65d1d76d6ce684e00b9d/jetified-junit-1.1.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dee3ccee862d2015d8d50512a3510610/espresso-core-3.3.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/449493582674458e7282b3c805020b23/jetified-viewbinding-4.0.1-api.jar</arg>
@@ -179,7 +180,9 @@
     <content url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debugAndroidTest/out" />
     <content url="file://$MODULE_DIR$/../../../app/build/generated/renderscript_source_output_dir/debugAndroidTest/out" />
     <content url="file://$MODULE_DIR$/../../../app/build/generated/res/rs/androidTest/debug" />
-    <content url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/androidTest/debug" />
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/androidTest/debug">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/androidTest/debug" isTestSource="true" generated="true" />
+    </content>
     <content url="file://$MODULE_DIR$/../../../app/src/androidTest">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/src/androidTest/java" isTestSource="true" />
     </content>
