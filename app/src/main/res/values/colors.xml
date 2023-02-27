@@ -4,4 +4,9 @@
     <color name="colorPrimaryDark">#007166</color>
     <color name="colorAccent">#67D2C4</color>
     <color name="background">#FAFAFA</color>
+
+    <color name="colorPrimaryPba">#034871</color>
+    <color name="colorPrimaryDarkPba">#034871</color>
+    <color name="colorAccentPba">#84C81B</color>
+    <color name="backgroundPba">#034871</color>
 </resources>
