@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".views.forgotpass.ForgotPasswordActivity"/>
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:exported="false" />
+        <activity android:name=".views.forgotpass.ForgotPasswordActivity" />
         <activity android:name=".views.login.LoginActivity" />
         <activity android:name=".views.splash.SplashActivity" />
         <activity android:name=".views.main.MainActivity">
