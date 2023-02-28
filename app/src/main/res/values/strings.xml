@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Absensi</string>
+    <string name="app_name">AbsensiQ</string>
     <string name="hello_sign_in_your_account">Login</string>
     <string name="email">Email</string>
     <string name="password">Password</string>

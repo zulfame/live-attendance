@@ -13,6 +13,9 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        //BASE_URL
+        buildConfigField "String", "BASE_URL", "\"https://app.bprbangunarta.co.id/attendance/public/api/\""
     }
 
     buildTypes {
