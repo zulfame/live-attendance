@@ -46,13 +46,13 @@ class AttendanceFragment : Fragment(), OnMapReadyCallback {
 
     override fun onMapReady(googleMap: GoogleMap?) {
         map = googleMap
-        val codepolitan = LatLng(-6.879513, 107.590085)
+        val bangunarta = LatLng(-6.286271500486949, 107.82085739904687)
         map?.addMarker(
             MarkerOptions()
-                .position(codepolitan)
-                .title("Marker in Sydney")
+                .position(bangunarta)
+                .title("PT BPR BANGUNARTA")
         )
-        map?.moveCamera(CameraUpdateFactory.newLatLng(codepolitan))
+        map?.moveCamera(CameraUpdateFactory.newLatLng(bangunarta))
         map?.animateCamera(CameraUpdateFactory.zoomTo(20f))
     }
 
